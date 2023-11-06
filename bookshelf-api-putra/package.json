@@ -1,0 +1,21 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "This repository aims for finish backend submission dicoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [
+    "bookshelf-api"
+  ],
+  "author": "putrapratamanst",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "eslint": "^8.52.0",
+    "nanoid": "^3.3.6"
+  }
+}
